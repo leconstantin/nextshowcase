@@ -57,7 +57,10 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		animation: {
+			float: 'float 6s ease-in-out infinite',
+		  },
   	}
   },
   plugins: [require("tailwindcss-animate")],

@@ -1,7 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Sparkles } from "lucide-react";
-
 export default function Cta() {
   return (
     <section className="max-w-7xl mx-auto bg-[#5340ff] px-[24px] mt-[160px]">
@@ -15,7 +14,6 @@ export default function Cta() {
             and build a brand you love.
           </p>
         </div>
-
         <div className="mt-[40px] flex flex-1 w-full  flex-col md:flex-row items-center justify-center gap-3 ">
           <input
             type="text"
